@@ -1,24 +1,29 @@
 import java.util.Scanner;
-//Classe deve iniciar com letra maiuscula
-//Construir uma calculadora que so faz soma
-class Calculadora {
+
+// Classe iniciada com letra minuscula perde ponto
+// Construir uma calculadora que faça operações de soma
+public class CalculadoraSoma {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        // Imprimir uma mensagem de solicitando o primeiro numero
-        System.out.println("Digite o primeiro numero: ");
+
+        //Imprimir uma mensagem solicitado o primeiro número
+        System.out.println("Insira o primeiro número:");
         //Receber o primeiro número
         float num1 = scanner.nextFloat();
-        // Imprimir uma mensagem de solicitando o segundo numero
-        System.out.println("Digite o segundo numero: ");
-        //Receber o segundo número
+
+        //Imprimir uma mensagem solicitando o segundo número
+        System.out.println("Insira o segundo número:");
+        //Segundo numero
         float num2 = scanner.nextFloat();
-        //Fazer a opreção de soma
+
+        //Fazer a operação de soma
         float resultado = num1 + num2;
-        //Mostrar o Resultado
-        System.out.println("O resultado da soma " + num1 + " + " + num2 + " é " + resultado);
 
-
+        //Mostrar o resultado
+        System.out.println("O resultado da soma "+num1 +" com "+ num2 + " é "+ resultado);
 
         scanner.close();
     }
+
 }
