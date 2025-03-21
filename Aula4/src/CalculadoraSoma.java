@@ -1,4 +1,5 @@
 import java.util.Scanner;
+//Classe deve iniciar com letra maiuscula
 //Construir uma calculadora que so faz soma
 class Calculadora {
     public static void main(String[] args) {
