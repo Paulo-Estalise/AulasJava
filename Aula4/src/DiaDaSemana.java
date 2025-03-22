@@ -1,0 +1,3 @@
+public enum DiaDaSemana {
+    SEGUNDA,TERCA,QUARTA,QUNTA,SEXTA,SABADO,DOMIGO
+}
